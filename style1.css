@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    text-align: center;
+    size:0em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+p {
+    color: white;
+    margin-top: 25%;
+    font-size: 1.5em;
+    font-family: "sans-serif";
+    
+}
+#title{
+    margin-top: 25%;
+    font-size: 2em;
+    color: white;
+}
+#regularText{
+    margin-top: 25%;
+    font-size: 2em;
+    color: white;
+}
+
+#krish{
+    visibility: hidden;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    height: 40%;
+    
+}
+
+#playAgain{
+    opacity: 0;
+    position: absolute;
+    margin-bottom: 30%;
+}
+
+.heart{
+    visibility: hidden;
+    position: absolute;
+    top: 5%;
+    height: 7.5%;
+}
+
+#heart1{
+    right: 4%;
+}
+
+#heart2{
+    right: 9%;
+}
+
+#heart3{
+    right: 14%;
+}
+
+#box{
+    visibility: hidden;
+    position:absolute;
+    bottom: 10%;
+    right:20%;
+}
+
+#question{
+    margin-top: 40%;
+    color: white;
+
+}
+
+#L{
+    color:white;
+    font-size: 8em;
+}
+
+
