@@ -19,7 +19,7 @@ async function showText(text) {
     textBox.innerHTML = "";
     isRunning = true;
     for (var i = 0; i <= text.length; i++) {
-        await sleep(10);
+        await sleep(80);
         let letter = text.substring(i, i+1);
         textBox.innerHTML = textBox.innerHTML + letter;
 
