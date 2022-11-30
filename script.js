@@ -8,11 +8,11 @@ form = document.getElementById("form");
 // box = document.getElementById("box");
 question = document.getElementById("question")
 inputBox = document.getElementById("inputBox")
-var determination = new Audio('/audio/determination.mp3')
+var determination = new Audio('./audio/determination.mp3')
 inputBox.style.opacity = 0;
 document.addEventListener("click", game)
 var isRunning = false;
-var theme = new Audio('/audio/trap.mp3');
+var theme = new Audio('./audio/trap.mp3');
 var lives = 3;
 
 async function showText(text) {
@@ -24,7 +24,7 @@ async function showText(text) {
         textBox.innerHTML = textBox.innerHTML + letter;
 
         if(letter != " "){
-            var narrate = new Audio('/audio/sans.mp3')
+            var narrate = new Audio('./audio/sans.mp3')
             narrate.play();
         }
     }
